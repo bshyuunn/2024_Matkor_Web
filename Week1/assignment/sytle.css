@@ -13,6 +13,14 @@
 	height: 500px;
 }
 
+#page {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 500px;
+}
+
 .flex-div-egg {
     height: 500px;
 }
