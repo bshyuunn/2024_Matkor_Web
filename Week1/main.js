@@ -5,7 +5,7 @@ const egg1 = document.getElementById("egg1");
 
 cnt1.innerHTML = num;
 
-egg_num = num;
+let egg_num = num;
 
 const hit = () => {	
 	if (egg_num <= 1) {
