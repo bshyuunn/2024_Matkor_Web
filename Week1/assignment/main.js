@@ -6,6 +6,7 @@ const egg1 = document.getElementById("egg1");
 cnt1.innerHTML = num;
 
 let egg_num = num;
+const color = ["red", "orange", "yellow", "green", "blue", "navy", "purple"];
 
 const hit = () => {	
 	if (egg_num <= 1) {
@@ -15,6 +16,7 @@ const hit = () => {
         return;
 	}
     egg_num--;	
+    cnt1.style.color = color[Math.floor(((num - egg_num) / num) * 7)];
     cnt1.innerHTML = egg_num;
 };
 
