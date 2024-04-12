@@ -1,0 +1,18 @@
+
+.flex-div-cnt {
+    color: red;
+	font-size: 100px;
+    align-items: center;
+}
+
+.flex-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 500px;
+}
+
+.flex-div-egg {
+    height: 500px;
+}
